@@ -7,5 +7,5 @@ double Calculator::Add (double a, double b)
 
 double Calculator::Sub (double a, double b)
 {
-	return a * b;
+	return a - b;
 }

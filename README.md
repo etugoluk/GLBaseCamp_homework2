@@ -12,4 +12,5 @@ To run CMakeLists.txt: <br/>
 'ninja.sh' - it's a script, which build program by 'Ninja' build system.
 To run Ninja.sh: <br/>
 	1. Go to 'build' directory (command 'cd build').<br/>
-	2. Write command 'ninja.sh'.<br/>
+	2. Change rights of 'ninja.sh' (command 'chmod +x ninja.sh'). <br/>
+	3. Write command 'ninja.sh'.<br/>

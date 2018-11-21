@@ -20,9 +20,6 @@ $(NAME_LIB): $(BINS_LIB)
 $(NAME_EXE): $(NAME_LIB) $(BINS_EXE)
 	g++ $(CXXFLAGS) $(BINS_EXE) -o $(NAME_EXE) $(NAME_LIB)
 
-%.o: %.c
-	g++ $(CXXFLAGS) -o $@ -c $<
-
 clean:
 	rm -f $(BINS_LIB) $(BINS_EXE)
 
